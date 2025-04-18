@@ -1,0 +1,108 @@
+
+body{
+  overflow: hidden;
+}
+
+.reviews {
+    background-color: black;
+    height: 100vh;
+  }
+  .user {
+    display: flex;
+    width: 40%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    line-height: 2;
+    font-family: Quicksand;
+    font-weight: bold;
+  }
+  .logo-ankole img{
+    margin-top: 5%;
+    height: 200px;
+    width: 220px;
+    margin-left: 44%;
+  }
+  #icon-first {
+    color: rgb(238, 98, 47);
+    font-size: 60px;
+    right: 71%;
+    top: 35vh;
+    position: absolute;
+  }
+  #icon-second{
+    color: rgb(238, 98, 47) ;
+    font-size: 60px;
+    left: 75%;
+    bottom: 35%;
+    position: absolute;
+  }
+  .arrow-one:hover,
+  .arrow-two:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .arrow-one,
+  .arrow-two {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 20%;
+    margin-left: 20%;
+    margin-top: -22px;
+    color: rgb(53, 49, 49);
+    font-size: 36px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .arrow-two{
+    right: 3%;
+    border-radius: 4px 0 0 4px;
+    position: fixed;
+  }
+  .arrow-one {
+    position: fixed;
+    left: 3%;
+    border-radius: 4px 0 0 4px;
+  }
+  .user-logo img {
+    width: 13%;
+}
+   .navigation{
+    background-color: gray;
+    margin-top: -6%;
+    width: 40%;
+    padding: 12px;
+    margin-left: 28%;
+    border-radius: 30px;
+
+    
+   }
+   .navigation a{
+    margin: 2%;
+    text-decoration: none;
+    color: white;
+    margin-top: -12%;
+    
+   }
+#reservation{
+  border-radius: 12px;
+  padding: 2px;
+}
+.navigation #fa-whatsapp{
+  position: relative;
+  left: 75%;
+  color: white;
+  font-size: 250%;
+  border: solid;
+  padding: 3px;
+  border-radius: 25px;
+}
+#insta{
+  color: white;
+  margin-left: 97%;
+}
+#face{
+color: white;
+margin: 8px;
+}

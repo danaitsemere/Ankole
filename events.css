@@ -1,0 +1,104 @@
+.events{
+    display: flex;
+    overflow: hidden; 
+   
+   
+}
+.accra{
+    background-image: url(Image/anokle\ accra.jpg);
+     width: 180vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    
+}
+.accra-text{
+    margin-top: 70%;
+}
+.nairobi{
+    background-image: url(Image/anokle\ nairobi.jpg);
+    width:180vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.nairobi-text{
+    text-align: center;
+    margin-top: 23%;
+    
+}
+
+.zanzibar{
+    background-image: url(Image/anokle\ zanzibar.jpg);
+    width: 180vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.zanzibar-text{
+    text-align: center;
+    margin-top: 68%;
+    font-size: 8px;
+}
+
+
+
+.navigation{
+    background-color: black;
+    
+    width: 40%;
+    border-radius: 38px; 
+    margin-left: 28%;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin-top: -7%;
+    padding: 1.5%;
+    
+
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    margin: 17px;
+    
+}
+#reservation{
+    border-radius: 15px;
+    padding: 1%;
+
+}
+.social-medias{
+    margin-left: 85%;
+    margin-top: 2%;
+    
+}
+.social-medias i{
+    border: solid white;
+    padding: 5px;
+    border-radius: 30px;
+    
+}
+.fa-whatsapp{
+    margin-top: 25%;
+    margin-left: 80%;
+    font-size: 300%;
+    border: solid white;
+    padding: 6px;
+    border-radius: 30px;
+
+}
+#logo{
+    width: 50%;
+    margin-left: 25%;
+}
+#pav{
+    color: gray;
+    font-size: 20px;
+}
+#pax{
+    color: orange;
+    
+}

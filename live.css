@@ -1,0 +1,115 @@
+
+.navigation{
+    background-color: black;
+    padding: 10%;
+    width: 170%;
+    border-radius: 60px;
+    margin-left: 30%;
+    margin-right: 20%;
+    display: flex;
+    gap: 4%;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin-top: 90%;
+
+}
+.navigation a{
+    position: relative;
+    color:white;
+    text-decoration: none;
+}
+.live{
+    display: flex;
+    gap:30%;
+    background-image: url(Image/live.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+}
+.music{
+ 
+    display: flex;
+
+    
+}
+#reservation{
+    width: 130%;
+    height: 145%;
+    border-radius: 16px;
+    margin-top: -4%;
+}
+#logo{
+   width: 60%; 
+   margin-left: 85%;
+   margin-top: 15%;
+   width: 50%;
+}
+.takatiku{
+text-align: center;
+
+}  
+
+.takatiku h3{
+color: red;
+margin-left: 98%;
+font-size: 280%;
+
+
+
+}
+.takatiku p{
+    margin-top: 30%;
+    margin-left: 100%;
+    font-size: 150%;
+}
+
+
+#h{
+    width: 40%;
+     height: 80vh;
+     margin-top: 3%;
+     
+}
+
+.musicians{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+.day{
+    margin-left:-40%;
+}
+.day p{
+    margin-top: 66%;
+    color: red;
+    font-size: 160%;
+}
+.day h3{
+color: white;
+font-size: 125%;
+
+}
+.navigation #fa-whatsapp{
+    position: relative;
+    border: solid ;
+    border-radius: 70px;
+    font-size: 50px;
+    padding: 2%;
+    margin-top: -10%;
+    margin-left: 130%;
+    }
+.takatiku h4{
+    color: white;
+    font-size: xx-large;
+    margin-left: 96%;
+}
+
+
+
+
+    
