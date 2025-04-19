@@ -52,7 +52,7 @@ body{
 }
 .navigation{
  background-color: black;    
- width: 40%;
+ width: 50%;
  height: 45%;
  padding: 1%;
  border-radius: 62px;
@@ -86,7 +86,7 @@ body{
    
     font-size: 60px;
     margin-left: 95%;
-    margin-top: -16%;
+    margin-top: -40px;
     border: solid;
     border-radius: 38px;
     padding: 5px;
@@ -94,4 +94,104 @@ body{
 .contacts{
     filter: brightness(0.5);
 }
-
+@media only screen and (max-width: 430px){
+    body{
+        background-image: url(Image/contacts.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    
+    
+    .address{
+        flex-direction: column;
+        gap: 5%;
+        margin-left: 270px;
+        margin-top: 3%;
+    }
+    .social-medias{
+        text-align: right;
+    
+    }
+    .social-medias i{
+        border: solid;
+        padding: 2px;
+        border-radius: 12px;
+        color: gray;
+    } 
+    .kitisuru{
+        border: solid 1px white;
+        padding: 2%;
+        width: 150%;
+        height: 4%;
+        margin-left: -145%;
+        margin-top: 2%;
+        color: white;
+    }
+    .kilimani{
+        margin-left: -145%;
+        margin-top: 2%;
+        border: solid 1px white;
+         padding: 2%;
+         width: 150%;
+       
+    }
+    .kilimani h4{
+        color: white;
+    }
+    .kilimani h2{
+        color: white;
+    
+    }
+    #logo{
+         margin-left: 42%;
+        width: 190px;
+    
+    }
+    .navigation{
+     background-color: black;    
+     width: 80%;
+     height: 45%;
+     padding: 1%;
+     border-radius: 62px;
+     margin-top: 14%;
+     margin-left: 3%;
+     margin-top: 3%;
+     font-size: 8px;
+    
+    }
+    .navigation a{
+        text-decoration: none;
+        color: white;
+        margin: 2%;
+    
+    }
+    #reservation{
+        padding: 10px 5px;
+        border-radius: 25px;
+        width: 15%;
+        background-color: gray;
+        color: white;
+        font-size: 8px;
+    }
+    
+    #reservation:hover{
+        background-color: white;
+        color: black;
+        }
+    .navigation a:hover{
+            background-color: gray;
+         }
+    .fa-whatsapp{
+       
+        font-size: 20px;
+        margin-left: 90%;
+        margin-top: -500px;
+        border: solid;
+        border-radius: 38px;
+        padding: 5px;
+    }
+    .contacts{
+        filter: brightness(0.5);
+    }
+}

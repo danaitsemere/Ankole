@@ -114,3 +114,131 @@
     color: orange;
     
 }
+@media only screen and (max-width: 430px){
+
+
+
+
+    .events{
+        display: flex;
+        overflow: hidden; 
+       
+       
+    }
+    .events{
+        filter: brightness(0.5);
+    }
+    .accra{
+        background-image: url(Image/anokle\ accra.jpg);
+         width: 180vh;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        
+    }
+    .accra-text{
+        margin-top: 70%;
+    }
+    .nairobi{
+        background-image: url(Image/anokle\ nairobi.jpg);
+        width:180vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+    .nairobi-text{
+        text-align: center;
+        margin-top: 23%;
+        
+    }
+    
+    .zanzibar{
+        background-image: url(Image/anokle\ zanzibar.jpg);
+        width: 180vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+    .zanzibar-text{
+        text-align: center;
+        margin-top: 68%;
+        font-size: 8px;
+    }
+    
+    
+    
+    .navigation{
+        background-color: black;
+        width: 85%;
+        border-radius: 38px; 
+        margin-left: 28%;
+        text-decoration: none;
+        color: white;
+        position: relative;
+        margin-top: -20%;
+        padding: 1.5%;
+        font-size: 8px;
+        margin-left: 4%;
+        
+    
+    }
+    .navigation a{
+        text-decoration: none;
+        color: white;
+        margin: 7px;
+        
+    }
+    #reservation:hover{
+        background-color: white;
+        color: black;
+        }
+    .navigation a:hover{
+            background-color: gray;
+         }
+    #reservation{
+        border-radius: 15px;
+        padding: 1%;
+        background-color: gray;
+        color: white;
+        font-size: 7px;
+    
+    }
+    .social-medias{
+        margin-left: 50%;
+        margin-top: 2%;
+        display:flex;
+        
+    }
+    .social-medias i{
+        border: solid white;
+        padding: 5px;
+        border-radius: 30px;
+        
+    }
+    .fa-whatsapp{
+        margin-top: 195%;
+        margin-left: 50%;
+        font-size: 300%;
+        border: solid white;
+        padding: 6px;
+        border-radius: 30px;
+    
+    }
+    #logo{
+        width: 55%;
+        margin-left: 25%;
+    }
+    #pav{
+        color: gray;
+        font-size: 20px;
+    }
+    #pax{
+        color: orange;
+        
+    }
+
+
+    
+}

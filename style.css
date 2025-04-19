@@ -142,4 +142,138 @@ color: black;
     position:absolute;
     position: fixed;
 }
+@media only screen and (max-width: 430px){
 
+    #logo{
+        margin-left: 30%;
+        width: 30%;
+        top: 12vh;
+        position:absolute;
+        position: fixed;
+    }
+    .social-medias i{
+        color: white;
+        border: solid 1px;
+        border-radius: 15px;
+        padding:2%;
+        
+        
+        
+    }
+    .first-page{
+        filter: brightness(0.5);
+    }
+    .social-medias i{
+        color: white;
+        border: solid 2px;
+        border-radius: 15px;
+        padding:4px;
+        
+        
+    }
+    .navigation #fa-whatsapp{
+    position: absolute;
+    left: 135%;
+    font-size: xx-large;
+    border: solid white;
+    border-radius: 50%;
+    padding: 2%;
+    margin-left: 30%;
+    margin-top: -4%;
+    
+    
+    }
+    
+    #reservation{
+        border-radius: 20px;
+        height: 50px;
+        width: 100%;
+        margin-top: -40%;
+        background-color: gray;
+        color: white;
+        font-size: 7px;
+        padding: 1%;
+        
+    }
+    #reservation:hover{
+    background-color: white;
+    color: black;
+    }
+    .navigation a:hover{
+        background-color: gray;
+     }
+    
+    .texts{
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        text-decoration: none;
+    }
+    
+    .text {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        animation: stay 15s infinite;
+        background-position: center;
+        opacity: 0;   
+    }
+    .texts h1{
+      color: gray;
+      text-align: center;
+      font-size: 100px;
+      margin-top: 43%;
+    }
+    .welcome {
+        animation-delay: 0s;
+        background-image: url(Image/Welcome.jpg);
+    
+    }
+    .discover {
+        animation-delay: 4s;
+        background-image: url(Image/discover.jpg);
+    }
+    .experience {
+        animation-delay: 8s;
+        background-image: url(Image/food.jpg);
+    }
+    .taste {
+        animation-delay: 12s;
+        background-image: url(Image/fruit.jpg);
+    }
+    .savour {
+        animation-delay: 16s;
+        background-image: url(Image/last\ of\ home.jpg);
+    }
+
+.navigation{
+    background-color: black;
+    padding: 1.5%;
+    position:fixed ;
+    width: 70%;
+    border-radius: 80px;
+    margin-left: 6%;
+    margin-right: 20%;
+    display: flex;
+    gap: 4%;
+    text-decoration: none;
+    color: white;
+    /* position: relative; */
+    margin-top: -17%;
+    font-size: 8px;
+}
+.navigation a{
+    position: relative;
+    color:white;
+    text-decoration: none;
+}
+#logo{
+    margin-left: 40%;
+    width: 15%;
+    top: 12vh;
+    position:absolute;
+    position: fixed;
+}
+}
