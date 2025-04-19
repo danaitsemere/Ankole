@@ -71,8 +71,17 @@ body{
     padding: 15px;
     border-radius: 25px;
     width: 20%;
-
+    background-color: gray;
+    color: white;
 }
+
+#reservation:hover{
+    background-color: white;
+    color: black;
+    }
+.navigation a:hover{
+        background-color: gray;
+     }
 .fa-whatsapp{
    
     font-size: 60px;
@@ -81,8 +90,8 @@ body{
     border: solid;
     border-radius: 38px;
     padding: 5px;
-
-    
-
+}
+.contacts{
+    filter: brightness(0.5);
 }
 

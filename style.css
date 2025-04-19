@@ -15,6 +15,9 @@ overflow-y: hidden;
  
 
 }
+.first-page{
+    filter: brightness(0.5);
+}
 .social-medias i{
     color: white;
     border: solid 2px;
@@ -41,7 +44,17 @@ margin-top: -4%;
     height: 50px;
     width: 170%;
     margin-top: -40%;
+    background-color: gray;
+    color: white;
+    
 }
+#reservation:hover{
+background-color: white;
+color: black;
+}
+.navigation a:hover{
+    background-color: gray;
+ }
 
 .texts{
     position: relative;
@@ -58,10 +71,7 @@ margin-top: -4%;
     background-size: cover;
     animation: stay 15s infinite;
     background-position: center;
-    opacity: 0;
-
-    
-    
+    opacity: 0;   
 }
 .texts h1{
   color: gray;

@@ -10,7 +10,9 @@ body{
     height: 966px;
     text-align: center;
     color: white;
-    
+}
+.main{
+    filter: brightness(0.5);
 }
 .main p{
     font-size: 100%;
@@ -58,7 +60,7 @@ body{
 } 
 
 #logo{
-    margin-left: 40%;
+    margin-left: 35%;
     width: 15%;
     margin-top: 40px;
     position:absolute;
@@ -71,28 +73,36 @@ body{
     position:fixed ;
     width: 180%;
     border-radius: 50px;
-    margin-left: -330%;
+    margin-left: -375%;
     margin-right: 20%;
     display: flex;
     gap: 4%;
     text-decoration: none;
     color: white;
     position: relative;
-    margin-top: 220%;
+    margin-top: 245%;
 
 }
 .navigation a{
     position: relative;
     color:white;
     text-decoration: none;
-    border-radius: 40px;
-    
 }
+#reservation:hover{
+    background-color: white;
+    color: black;
+    }
+.navigation a:hover{
+        background-color: gray;
+     }
+    
 #reservation{
     border-radius: 20px;
     height: 50px;
     width: 170%;
     margin-top: -40%;
+    background-color: gray;
+    color: white;
 }
 .social-medias i{
     color: white;

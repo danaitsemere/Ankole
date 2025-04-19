@@ -4,6 +4,9 @@
    
    
 }
+.events{
+    filter: brightness(0.5);
+}
 .accra{
     background-image: url(Image/anokle\ accra.jpg);
      width: 180vh;
@@ -65,9 +68,18 @@
     margin: 17px;
     
 }
+#reservation:hover{
+    background-color: white;
+    color: black;
+    }
+.navigation a:hover{
+        background-color: gray;
+     }
 #reservation{
     border-radius: 15px;
     padding: 1%;
+    background-color: gray;
+    color: white;
 
 }
 .social-medias{

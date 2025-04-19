@@ -8,6 +8,9 @@ body{
     height:100vh;
 
 }
+.Kitisuru-main{
+    filter: brightness(0.5);
+}
 .kiti{
     width:60%; 
     background-image: url(Image/kiti.jpeg);
@@ -52,10 +55,8 @@ body{
     border-radius: 12px;
     padding: 6px;
     margin-top: -5%;
-
-
-    
-
+    background-color:gray;
+    color: white;
 }
 .meals-topic a{
     text-decoration: none;
@@ -195,4 +196,10 @@ margin-top: 70%;
     margin-left: 21.5%;
     margin-top: 4.5%;
 }
-
+#reservation:hover{
+    background-color: white;
+    color: black;
+    }
+.navigation a:hover{
+        background-color: gray;
+     }

@@ -47,13 +47,23 @@ color: red;
 .navigation a{
     text-decoration: none;
     color: white;
-    margin: 1%; 
+    margin: 2%; 
 }
 #button{
     width: 20%;
     padding: 2%;
-    border-radius: 20px;   
+    border-radius: 20px; 
+    background-color: gray;
+    color: white;  
 }
+
+#button:hover{
+    background-color: white;
+    color: black;
+    }
+.navigation a:hover{
+        background-color: gray;
+     }
 
 .account{
     width: 49%;
@@ -63,6 +73,7 @@ color: red;
 form{
     height: 100vh;
     line-height: 40px;
+    
 }
 label{
     color: white;
@@ -79,4 +90,21 @@ input{
     height: 50px;
     margin-top :3% ;
     border-radius: 9px;
+}
+#submit:hover{
+    background-color: orange;
+
+}
+.navigation #fa-whatsapp{
+margin-left: 170%;
+margin-top: -40%;
+font-size: 150%;
+color: gray;
+border: solid;
+padding: 4px;
+border-radius: 20px;
+
+}
+.reservation{
+    filter: brightness(0.5);
 }

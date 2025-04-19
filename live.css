@@ -11,7 +11,7 @@
     text-decoration: none;
     color: white;
     position: relative;
-    margin-top: 90%;
+    margin-top: 125%;
 
 }
 .navigation a{
@@ -28,17 +28,30 @@
     height: 100vh;
    
 }
+.live{
+    filter: brightness(0.5);
+    
+}
 .music{
  
     display: flex;
 
     
 }
+#reservation:hover{
+    background-color: white;
+    color: black;
+    }
+.navigation a:hover{
+        background-color: gray;
+     }
 #reservation{
     width: 130%;
     height: 145%;
     border-radius: 16px;
     margin-top: -4%;
+    background-color: gray;
+    color: white;
 }
 #logo{
    width: 60%; 

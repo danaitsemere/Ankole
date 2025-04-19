@@ -88,7 +88,17 @@ body{
 #reservation{
   border-radius: 12px;
   padding: 2px;
+  background-color: gray;
+  color: white;
 }
+
+#reservation:hover{
+    background-color: white;
+    color: black;
+    }
+.navigation a:hover{
+        background-color: gray;
+     }
 .navigation #fa-whatsapp{
   position: relative;
   left: 75%;
